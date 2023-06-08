@@ -50,7 +50,7 @@ def submit_form():
         return "something went wrong. try again."
     
 
-@app.route('/al/submit_form', methods=['POST', 'GET'])
+@app.route('/al_submit_form', methods=['POST', 'GET'])
 def submit_form_al():
     if request.method == 'POST':
         try:
