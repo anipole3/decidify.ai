@@ -1,2 +1,1 @@
-# decidify.ai
-Decidify website
+# consultingWeb
