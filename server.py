@@ -16,9 +16,9 @@ def html_page(page_name):
     return render_template(page_name)
 
 
-@app.route('/al/<string:page_name>')
-def al_html_page(page_name):
-    return render_template("al_"+page_name)
+# @app.route('/al/<string:page_name>')
+# def al_html_page(page_name):
+#     return render_template("al_"+page_name)
 
 # def write_to_file(data):
 #     with open('database.txt', mode='a') as database:
